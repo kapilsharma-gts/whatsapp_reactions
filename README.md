@@ -1,39 +1,20 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# WhatsApp Reactions
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+WhatsApp Reactions is a feature-rich library that allows users to add expressive reactions to their messages in the popular messaging application WhatsApp. With this library, users can enhance their messaging experience by providing a quick and convenient way to acknowledge or respond to messages using visual cues.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Easy integration: Simple and straightforward integration into your existing WhatsApp messaging application.
+- Variety of reactions: Users can choose from a wide range of emojis or icons to express their feelings towards a message, including like, love, laughter, surprise, sadness, anger, and more.
+- Real-time updates: Instantly see the overall sentiment towards a message by displaying the total count of each reaction received.
+- Enhance communication: Promote engagement and facilitate better communication and understanding among participants in group chats or individual conversations.
 
-## Getting started
+## Installation
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use the WhatsApp Reactions library in your project, follow these steps:
 
-## Usage
+1. Clone the repository:
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```bash
+git clone https://github.com/kapilsharma-gts/whatsapp_reactions.git
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.

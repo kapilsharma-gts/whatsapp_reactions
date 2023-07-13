@@ -1,20 +1,21 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 
-class FbReaction extends StatefulWidget {
+class ReactionButton extends StatefulWidget {
   final double? width;
   final EdgeInsetsGeometry? margin;
   final Decoration? decoration;
   final Function(String, int)? onchange;
 
-  const FbReaction(
+  const ReactionButton(
       {super.key, this.width, this.margin, this.decoration, this.onchange});
 
   @override
-  createState() => FbReactionState();
+  createState() => ReactionButtonState();
 }
 
-class FbReactionState extends State<FbReaction> with TickerProviderStateMixin {
+class ReactionButtonState extends State<ReactionButton>
+    with TickerProviderStateMixin {
   int durationAnimationBox = 500;
   int durationAnimationBtnLongPress = 150;
   int durationAnimationBtnShortPress = 500;
