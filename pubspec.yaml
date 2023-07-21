@@ -1,7 +1,7 @@
 name: whatsapp_reactions
 description: WhatsApp Reactions is a feature introduced in the popular messaging application WhatsApp that allows users to express their emotions or reactions to a message without typing a reply. It enhances the messaging experience by providing a quick and convenient way to acknowledge or respond to a message using visual cues.
 
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/kapilsharma-gts/whatsapp_reactions
 
 environment:

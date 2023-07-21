@@ -96,7 +96,7 @@ Stay tuned for more updates on the "Builder" feature, which is coming soon!
 
 We value your feedback and suggestions. If you have any questions or need assistance, please don't hesitate to contact our support team at devrajheropanti@gmail.com.
 
-Thank you for choosing My Awesome App. We hope you enjoy using it!
+Thank you for choosing My Package. We hope you enjoy using it!
 
 ---
 
