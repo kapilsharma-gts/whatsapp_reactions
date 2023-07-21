@@ -94,7 +94,7 @@ Stay tuned for more updates on the "Builder" feature, which is coming soon!
 
 ## Feedback
 
-We value your feedback and suggestions. If you have any questions or need assistance, please don't hesitate to contact our support team at support@myawesomeapp.com.
+We value your feedback and suggestions. If you have any questions or need assistance, please don't hesitate to contact our support team at devrajheropanti@gmail.com.
 
 Thank you for choosing My Awesome App. We hope you enjoy using it!
 
