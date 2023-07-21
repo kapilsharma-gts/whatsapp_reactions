@@ -6,10 +6,8 @@ WhatsApp Reactions is a Flutter package that provides a customizable and smooth 
 
 ## Preview
 
-![Preview 1](https://github.com/Askany-NDN/reaction_button_askany/blob/main/screenshots/IMG_0470.png?raw=true)
-![Preview 2](https://github.com/Askany-NDN/reaction_button_askany/blob/main/screenshots/IMG_0471.png?raw=true)
-![Preview 3](https://github.com/Askany-NDN/reaction_button_askany/blob/main/screenshots/IMG_0465.png?raw=true)
-![Preview 4](https://github.com/kapilsharma-gts/whatsapp_reactions/blob/main/appscreenshots/animationicon.png?raw=true)
+![Preview 1](https://github.com/kapilsharma-gts/whatsapp_reactions/blob/main/appscreenshots/new%20animation%20.png?raw=true)
+![Preview 2](https://github.com/kapilsharma-gts/whatsapp_reactions/blob/main/appscreenshots/new%20iconm.png?raw=true)
 
 <!-- Animation using gft builder - Coming Soon -->
 
@@ -80,6 +78,26 @@ void showReactionPopup(BuildContext context, Offset offset) {
     },
   );
 }
-
-
 ```
+
+## Upcoming Feature: Builder
+
+We are thrilled to announce that the upcoming feature in My Awesome App is the "Builder" feature. This feature will revolutionize how you interact with the app.
+
+### Builder Feature Highlights
+
+- Create custom widgets effortlessly.
+- Design your own unique user interfaces.
+- Take control of app layout with ease.
+
+Stay tuned for more updates on the "Builder" feature, which is coming soon!
+
+## Feedback
+
+We value your feedback and suggestions. If you have any questions or need assistance, please don't hesitate to contact our support team at support@myawesomeapp.com.
+
+Thank you for choosing My Awesome App. We hope you enjoy using it!
+
+---
+
+© 2023 Whatapp_Reaction. All rights reserved. Images and content used in this document are for illustrative purposes only. Actual app features may vary.
