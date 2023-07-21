@@ -1,20 +1,85 @@
 # WhatsApp Reactions
 
-WhatsApp Reactions is a feature-rich library that allows users to add expressive reactions to their messages in the popular messaging application WhatsApp. With this library, users can enhance their messaging experience by providing a quick and convenient way to acknowledge or respond to messages using visual cues.
+[![Pub](https://img.shields.io/pub/v/whatsapp_reactions.svg)](https://pub.dev/packages/whatsapp_reactions)
 
-## Features
+WhatsApp Reactions is a Flutter package that provides a customizable and smooth reaction popup, similar to WhatsApp's reaction feature. It allows users to select from a set of predefined emotions when reacting to content.
 
-- Easy integration: Simple and straightforward integration into your existing WhatsApp messaging application.
-- Variety of reactions: Users can choose from a wide range of emojis or icons to express their feelings towards a message, including like, love, laughter, surprise, sadness, anger, and more.
-- Real-time updates: Instantly see the overall sentiment towards a message by displaying the total count of each reaction received.
-- Enhance communication: Promote engagement and facilitate better communication and understanding among participants in group chats or individual conversations.
+## Preview
+<p>
+<img src="https://github.com/Askany-NDN/reaction_button_askany/blob/main/screenshots/IMG_0470.png?raw=true" width=180/>
+<img src="https://github.com/Askany-NDN/reaction_button_askany/blob/main/screenshots/IMG_0471.png?raw=true" width=180/>
+<img src="https://github.com/Askany-NDN/reaction_button_askany/blob/main/screenshots/IMG_0465.png?raw=true" width=180/>
+<img src="https://github.com/Askany-NDN/reaction_button_askany/blob/main/screenshots/IMG_0467.png?raw=true" width=180/>
+</p>
 
 ## Installation
 
-To use the WhatsApp Reactions library in your project, follow these steps:
+Add the following line to your `pubspec.yaml` file:
 
-1. Clone the repository:
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  whatsapp_reactions: ^version_number
+Replace version_number with the latest version of the package. You can find the latest version on the whatsapp_reactions package page on pub.dev.
 
-```bash
-git clone https://github.com/kapilsharma-gts/whatsapp_reactions.git
+Usage
+To use the WhatsApp Reactions package, import the necessary files:
+
+dart
+Copy code
+import 'package:flutter/material.dart';
+import 'package:whatsapp_reactions/whatsapp_reactions.dart';
+import 'package:whatsapp_reactions/scr/models/emotions.dart';
+import 'package:whatsapp_reactions/scr/models/reaction_box_paramenters.dart';
+import 'package:whatsapp_reactions/scr/widgets/reaction_box.dart';
+Then, use the Reactionpopup.showReaction method to show the reaction popup:
+
+dart
+Copy code
+void showReactionPopup(BuildContext context, Offset offset) {
+  Reactionpopup.showReaction(
+    context,
+    offset: offset,
+    handlePressed: (Emotions emotion) {
+      // Handle the selected emotion here.
+      print('Selected emotion: $emotion');
+    },
+  );
+}
+In this example, the showReactionPopup function takes the BuildContext and the Offset where you want to display the reaction popup. When the user selects an emotion, the provided callback function (handlePressed) will be called, and you can handle the selected emotion as needed.
+
+Example
+Here's an example of how to use the whatsapp_reactions package:
+
+dart
+Copy code
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(
+    home: Scaffold(
+      appBar: AppBar(title: Text('WhatsApp Reactions Demo')),
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () {
+            final buttonOffset = Offset(100, 100); // Replace with your button's offset.
+            showReactionPopup(context, buttonOffset);
+          },
+          child: Text('Show Reaction Popup'),
+        ),
+      ),
+    ),
+  ));
+}
+
+void showReactionPopup(BuildContext context, Offset offset) {
+  Reactionpopup.showReaction(
+    context,
+    offset: offset,
+    handlePressed: (Emotions emotion) {
+      print('Selected emotion: $emotion');
+    },
+  );
+}
 ```
